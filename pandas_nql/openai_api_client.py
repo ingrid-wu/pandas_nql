@@ -1,7 +1,7 @@
 import os
 from openai import OpenAI
 
-DEFAULT_GPT_MODEL = "gpt-3.5-turbo-0613"
+DEFAULT_GPT_MODEL = "gpt-3.0-mini"
 OPENAI_API_KEY_NAME = "OPENAI_API_KEY"
 
 client = OpenAI(
